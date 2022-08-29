@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">دوت.شوب</string>
+
+    <string name="ok">تم</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="loading">جاري التحميل…</string>
+    <string name="error_location_address">مكان غير معروف</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_acount">Create Acount</string>
+    <string name="email">Email</string>
+    <string name="ex_username_email_com">ex:username@email.com</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="eye">eye</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="don_t_have_account">Don\'t Have Account?</string>
+    <string name="or">Or</string>
+    <string name="sign_in_with_google">Sign In With Google</string>
+    <string name="have_account">Have Account?</string>
+    <string name="repeat_your_password">Repeat your password</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="to_reset_your_password_please_enter_your_email_address">To reset your Password Please enter your Email Address</string>
+    <string name="submit">Submit</string>
+    <string name="the_reset_message_has_been_sent_to_your_email">The reset message has been sent to your email</string>
+    <string name="home">Home</string>
+    <string name="orders">Orders</string>
+    <string name="offers">Offers</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="profile">Profile</string>
+    <string name="search_on_products_or_brands">Search on products or brands</string>
+
+</resources>
