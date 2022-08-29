@@ -9,5 +9,13 @@
         android:id="@+id/homeFragment"
         android:name="com.iei.dotshop.ui.main.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_ordersFragment"
+            app:destination="@id/ordersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ordersFragment"
+        android:name="com.iei.dotshop.ui.fragments.OrdersFragment"
+        android:label="Orders" />
 </navigation>

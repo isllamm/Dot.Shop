@@ -7,7 +7,7 @@
         android:icon="@drawable/ic_home"/>
 
     <item
-        android:id="@+id/order_nav_graph"
+        android:id="@+id/ordersFragment"
         android:title="@string/orders"
         android:icon="@drawable/ic_orders"/>
 

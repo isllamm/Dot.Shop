@@ -32,5 +32,10 @@
     <string name="profile">Profile</string>
     <string name="search_on_products_or_brands">Search on products or brands</string>
 
+    //order fragmnt
+    <string name="title">Title</string>
+    <string name="active">Active</string>
+    <string name="previous">Previous</string>
+
 
 </resources>
