@@ -11,11 +11,50 @@
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_homeFragment_to_ordersFragment"
-            app:destination="@id/ordersFragment" />
+            android:id="@+id/action_homeFragment_to_profile_nav_graph"
+            app:destination="@id/profile_nav_graph" />
     </fragment>
-    <fragment
-        android:id="@+id/ordersFragment"
-        android:name="com.iei.dotshop.ui.fragments.OrdersFragment"
-        android:label="Orders" />
+    <navigation
+        android:id="@+id/profile_nav_graph"
+        app:startDestination="@id/profileFragment">
+
+        <fragment
+            android:id="@+id/profileFragment"
+            android:name="com.iei.dotshop.ui.profile.ProfileFragment"
+            android:label="fragment_profile"
+            tools:layout="@layout/fragment_profile" >
+            <action
+                android:id="@+id/action_profileFragment_to_personalInfoFragment"
+                app:destination="@id/personalInfoFragment" />
+            <action
+                android:id="@+id/action_profileFragment_to_addressesFragment"
+                app:destination="@id/addressesFragment" />
+            <action
+                android:id="@+id/action_profileFragment_to_paymentsFragment"
+                app:destination="@id/paymentsFragment" />
+            <action
+                android:id="@+id/action_profileFragment_to_vouchersFragment"
+                app:destination="@id/vouchersFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/personalInfoFragment"
+            android:name="com.iei.dotshop.ui.profile.PersonalInfoFragment"
+            android:label="fragment_personal_info"
+            tools:layout="@layout/fragment_personal_info" />
+        <fragment
+            android:id="@+id/addressesFragment"
+            android:name="com.iei.dotshop.ui.profile.AddressesFragment"
+            android:label="fragment_addresses"
+            tools:layout="@layout/fragment_addresses" />
+        <fragment
+            android:id="@+id/paymentsFragment"
+            android:name="com.iei.dotshop.ui.profile.PaymentsFragment"
+            android:label="fragment_payments"
+            tools:layout="@layout/fragment_payments" />
+        <fragment
+            android:id="@+id/vouchersFragment"
+            android:name="com.iei.dotshop.ui.profile.VouchersFragment"
+            android:label="fragment_vouchers"
+            tools:layout="@layout/fragment_vouchers" />
+    </navigation>
 </navigation>

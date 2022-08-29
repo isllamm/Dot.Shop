@@ -6,19 +6,27 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.iei.dotshop.R
+import com.iei.dotshop.databinding.FragmentHomeBinding
 
 
 class HomeFragment : Fragment() {
 
-
+    private lateinit var binding: FragmentHomeBinding
+    private lateinit var parent: MainActivity
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+    ): View {
+        binding = FragmentHomeBinding.inflate(inflater)
+        parent = requireActivity() as MainActivity
+
+        setupUI()
+        return binding.root
     }
 
-
+    private fun setupUI() {
+        parent.showLogo(true)
+        parent.showToolbar(true)
+    }
 
 }
