@@ -47,6 +47,8 @@
     <string name="add_new_address">Add new Address</string>
     <string name="add_new_payment_method">Add new Payment Method</string>
     <string name="active">Active</string>
+    <string name="previous">Previous</string>
+    <string name="title">Title</string>
 
 
 </resources>
