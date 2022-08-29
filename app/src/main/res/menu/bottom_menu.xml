@@ -7,7 +7,7 @@
         android:icon="@drawable/ic_home"/>
 
     <item
-        android:id="@+id/ordersFragment"
+        android:id="@+id/order_nav_graph"
         android:title="@string/orders"
         android:icon="@drawable/ic_orders"/>
 
@@ -22,7 +22,7 @@
         android:icon="@drawable/ic_heart"/>
 
     <item
-        android:id="@+id/profileFragment"
+        android:id="@+id/profile_nav_graph"
         android:title="@string/profile"
         android:icon="@drawable/ic_profile"/>
 </menu>

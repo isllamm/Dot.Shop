@@ -31,8 +31,23 @@
     <string name="wishlist">Wishlist</string>
     <string name="profile">Profile</string>
     <string name="search_on_products_or_brands">Search on products or brands</string>
-    //order fragmnt
-    <string name="title">Title</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="addresses">Addresses</string>
+    <string name="payments">Payments</string>
+    <string name="vouchers">Vouchers</string>
+    <string name="language">Language</string>
+    <string name="customer_support">Customer Support</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+    <string name="add_new_address">Add new Address</string>
+    <string name="add_new_payment_method">Add new Payment Method</string>
     <string name="active">Active</string>
     <string name="previous">Previous</string>
+    <string name="title">Title</string>
+
 </resources>
