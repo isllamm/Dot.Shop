@@ -2,6 +2,7 @@ package com.iei.dotshop.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
 import android.view.View
 import androidx.core.view.isVisible
 import androidx.navigation.NavController
@@ -40,6 +41,9 @@ class MainActivity : AppCompatActivity() {
                 as NavHostFragment
         navController = navHostFragment.navController
         binding.navView.setupWithNavController(navController)
+        val menu: Menu = binding.navView.menu
+        binding.navView.itemIconTintList = null;
+
     }
 
     fun showToolbar(isVisible: Boolean) {

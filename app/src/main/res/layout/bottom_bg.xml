@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/light_green_bg"
+    android:layout_width="@dimen/_24sdp"
+    android:layout_height="@dimen/_24sdp">
+
+</androidx.constraintlayout.widget.ConstraintLayout>

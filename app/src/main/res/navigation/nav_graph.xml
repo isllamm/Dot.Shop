@@ -87,5 +87,32 @@
             android:id="@+id/action_placedOrderFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/rateOrderFragment"
+        android:name="com.iei.dotshop.ui.rate.RateOrderFragment"
+        android:label="fragment_rate_order"
+        tools:layout="@layout/fragment_rate_order" >
+        <action
+            android:id="@+id/action_rateOrderFragment_to_successfulRateFragment"
+            app:destination="@id/successfulRateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/successfulRateFragment"
+        android:name="com.iei.dotshop.ui.rate.SuccessfulRateFragment"
+        android:label="fragment_successful_rate"
+        tools:layout="@layout/fragment_successful_rate" >
+        <action
+            android:id="@+id/action_successfulRateFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reviewsFragment"
+        android:name="com.iei.dotshop.ui.rate.ReviewsFragment"
+        android:label="fragment_reviews"
+        tools:layout="@layout/fragment_reviews" >
+        <action
+            android:id="@+id/action_reviewsFragment_to_rateOrderFragment"
+            app:destination="@id/rateOrderFragment" />
+    </fragment>
 
 </navigation>
