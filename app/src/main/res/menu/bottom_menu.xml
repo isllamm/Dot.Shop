@@ -7,7 +7,7 @@
         android:icon="@drawable/ic_home"/>
 
     <item
-        android:id="@+id/order_nav_graph"
+        android:id="@+id/ordersFragment"
         android:title="@string/orders"
         android:icon="@drawable/ic_orders"/>
 
@@ -17,7 +17,7 @@
         android:icon="@drawable/ic_offers"/>
 
     <item
-        android:id="@+id/wishlistFragment"
+        android:id="@+id/wishListFragment"
         android:title="@string/wishlist"
         android:icon="@drawable/ic_heart"/>
 

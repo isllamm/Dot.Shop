@@ -6,7 +6,7 @@
     app:startDestination="@id/loginFragment">
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.iei.dotshop.ui.Login.Fragments.Login.LoginFragment"
+        android:name="com.iei.dotshop.ui.fragments.Login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.iei.dotshop.ui.Login.Fragments.Register.RegisterFragment"
+        android:name="com.iei.dotshop.ui.fragments.Register.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" >
         <action

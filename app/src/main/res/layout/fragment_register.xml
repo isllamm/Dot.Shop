@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fillViewport="true"
 
-    tools:context=".ui.Login.Fragments.Register.RegisterFragment">
+    tools:context=".ui.fragments.Register.RegisterFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

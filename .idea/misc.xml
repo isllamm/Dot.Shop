@@ -44,19 +44,32 @@
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable-v24/nn.xml" value="0.1975" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/bg_borders.xml" value="0.1635" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/bg_btn_white.xml" value="0.1915" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/bg_rounded_corner.xml" value="0.2245" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/bottom_nav_bg.xml" value="0.196" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/gray_btn.xml" value="0.196" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/gray_et.xml" value="0.196" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/green_btn.xml" value="0.196" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ic_back_arrow.xml" value="0.1975" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ic_fav.xml" value="0.1635" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ic_favorite_border_layout.xml" value="0.1635" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ic_favorite_layout.xml" value="0.1635" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ic_filter.xml" value="0.2245" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ic_global.xml" value="0.1635" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ic_heart.xml" value="0.2215" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ic_hefffart.xml" value="0.1975" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ic_home.xml" value="0.2215" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ic_like.xml" value="0.1635" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ic_notifcation.xml" value="0.1915" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ic_notification.xml" value="0.196" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ic_orders.xml" value="0.2215" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ic_rectangle.xml" value="0.2245" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ic_shopping_cart.xml" value="0.1975" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ic_star.xml" value="0.1635" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ic_star_filled.xml" value="0.1635" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/item_bg.xml" value="0.1975" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ovel_btn.xml" value="0.2245" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/ratingbar_yellow.xml" value="0.1635" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/text_nav_bg.xml" value="0.2245" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/zz.xml" value="0.1975" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/drawable/zzzz.xml" value="0.1975" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/activity_login.xml" value="0.3619791666666667" />
@@ -65,16 +78,29 @@
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/activity_reset_password.xml" value="0.3619791666666667" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/dialog_loading.xml" value="0.3619791666666667" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/fragment_active_orders.xml" value="0.22" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/fragment_login.xml" value="0.3619791666666667" />
-        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/fragment_order_details.xml" value="0.18802083333333333" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/fragment_notifcation.xml" value="0.34717948717948716" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/fragment_order_details.xml" value="0.16" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/fragment_orders.xml" value="0.3619791666666667" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/fragment_previous_orders.xml" value="0.36666666666666664" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/fragment_register.xml" value="0.3619791666666667" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/fragment_terms.xml" value="0.3619791666666667" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/fragment_vouchers.xml" value="0.36666666666666664" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/fragment_wish_list.xml" value="0.18" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/home_toolbar.xml" value="0.3619791666666667" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/item_categories.xml" value="0.25" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/item_notifcation.xml" value="0.36666666666666664" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/item_order.xml" value="0.18697916666666667" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/item_order_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/item_order_details_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/item_order_details_types.xml" value="0.36666666666666664" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/item_payment.xml" value="0.36666666666666664" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/item_voucher.xml" value="0.36666666666666664" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/item_wish.xml" value="0.33" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/login_toolbar.xml" value="0.3619791666666667" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/main_toolbar.xml" value="0.36102564102564105" />
+        <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/layout/sesrch_home.xml" value="0.1" />
         <entry key="..\:/nada/tawajood/Dot.Shop/app/src/main/res/menu/bottom_menu.xml" value="0.36102564102564105" />
       </map>
     </option>
