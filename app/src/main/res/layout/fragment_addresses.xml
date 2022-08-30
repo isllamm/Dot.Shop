@@ -40,7 +40,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
-        android:id="@+id/ll_payments"
+        android:id="@+id/ll_address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/_8sdp"
@@ -67,7 +67,7 @@
         android:textSize="@dimen/_10ssp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ll_payments"
+        app:layout_constraintTop_toBottomOf="@+id/ll_address"
         app:drawableStartCompat="@drawable/ic_add" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

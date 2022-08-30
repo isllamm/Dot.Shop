@@ -82,6 +82,10 @@
         android:id="@+id/placedOrderFragment"
         android:name="com.iei.dotshop.ui.cart.PlacedOrderFragment"
         android:label="fragment_placed_order"
-        tools:layout="@layout/fragment_placed_order" />
+        tools:layout="@layout/fragment_placed_order" >
+        <action
+            android:id="@+id/action_placedOrderFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
 
 </navigation>

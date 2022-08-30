@@ -57,6 +57,22 @@
     <string name="plus">+</string>
     <string name="minus">-</string>
     <string name="my_cart">My Cart</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="total">Total</string>
+    <string name="delivery_tax">Delivery Tax</string>
+    <string name="total_fees">Total Fees</string>
+    <string name="add_promo_code">Add Promo Code</string>
+    <string name="apply">Apply</string>
+    <string name="promo_code">Promo Code</string>
+    <string name="confirm">Confirm</string>
+    <string name="continue_1">Continue</string>
+    <string name="delivery_info">Delivery Info</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="cash">Cash</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="order_created_successfully">Order Created Successfully</string>
+    <string name="order_number">Order Number</string>
+    <string name="go_to_home">Go To Home</string>
 
 
 </resources>
