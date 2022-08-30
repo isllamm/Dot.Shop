@@ -53,6 +53,10 @@
     <string name="order_num">Order Num</string>
     <string name="view_order">View Order</string>
     <string name="order_details">Order Details</string>
+    <string name="title">Title</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="my_cart">My Cart</string>
 
 
 </resources>

@@ -9,10 +9,11 @@
         android:id="@+id/homeFragment"
         android:name="com.iei.dotshop.ui.main.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_profile_nav_graph"
             app:destination="@id/profile_nav_graph" />
+
     </fragment>
     <navigation
         android:id="@+id/profile_nav_graph"
@@ -22,7 +23,7 @@
             android:id="@+id/profileFragment"
             android:name="com.iei.dotshop.ui.profile.ProfileFragment"
             android:label="fragment_profile"
-            tools:layout="@layout/fragment_profile" >
+            tools:layout="@layout/fragment_profile">
             <action
                 android:id="@+id/action_profileFragment_to_personalInfoFragment"
                 app:destination="@id/personalInfoFragment" />
@@ -57,4 +58,30 @@
             android:label="fragment_vouchers"
             tools:layout="@layout/fragment_vouchers" />
     </navigation>
+
+
+    <fragment
+        android:id="@+id/myCartFragment"
+        android:name="com.iei.dotshop.ui.cart.MyCartFragment"
+        android:label="fragment_my_cart"
+        tools:layout="@layout/fragment_my_cart">
+        <action
+            android:id="@+id/action_myCartFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.iei.dotshop.ui.cart.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart">
+        <action
+            android:id="@+id/action_cartFragment_to_placedOrderFragment"
+            app:destination="@id/placedOrderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/placedOrderFragment"
+        android:name="com.iei.dotshop.ui.cart.PlacedOrderFragment"
+        android:label="fragment_placed_order"
+        tools:layout="@layout/fragment_placed_order" />
+
 </navigation>

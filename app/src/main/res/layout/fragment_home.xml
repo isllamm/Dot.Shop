@@ -7,10 +7,14 @@
     android:fillViewport="true"
     tools:context=".ui.main.HomeFragment">
 
+
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="@dimen/_8sdp">
+
+
 
         <EditText
             android:id="@+id/et_search"
@@ -28,8 +32,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

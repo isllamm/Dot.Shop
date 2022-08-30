@@ -17,23 +17,25 @@ import com.iei.dotshop.databinding.FragmentOrdersBinding
 
 
 class OrdersFragment : Fragment() {
-     private lateinit var mSectionAdapter: SectionsPagerAdapterTabs
+    private lateinit var mSectionAdapter: SectionsPagerAdapterTabs
     private lateinit var binding: FragmentOrdersBinding
 
-override fun onCreateView(
+    override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-    binding = DataBindingUtil.inflate(inflater, R.layout.fragment_orders, container, false)
-    initViews()
-    return binding.root }
+        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_orders, container, false)
+        initViews()
+        return binding.root
+    }
 
     private fun initViews() {
         mSectionAdapter = SectionsPagerAdapterTabs(getChildFragmentManager())
         binding.viewPager.addOnPageChangeListener(TabLayout.TabLayoutOnPageChangeListener(binding.tabs))
         binding.tabs.addOnTabSelectedListener(TabLayout.ViewPagerOnTabSelectedListener(binding.viewPager))
-        binding.viewPager.setAdapter(mSectionAdapter)    }
+        binding.viewPager.setAdapter(mSectionAdapter)
+    }
 
 }
 

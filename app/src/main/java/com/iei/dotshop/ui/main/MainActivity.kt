@@ -24,8 +24,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         loadingUtil = LoadingUtil(this)
+        onClick()
 
         setupNavController()
+    }
+
+    private fun onClick() {
+        binding.toolbar.ivCart.setOnClickListener {
+            navController.navigate(R.id.myCartFragment)
+        }
     }
 
     private fun setupNavController() {
