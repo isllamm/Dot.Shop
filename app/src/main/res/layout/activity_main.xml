@@ -26,7 +26,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="@color/white"
-        app:itemIconTint="@drawable/bottom_nav_bg"
         app:itemTextColor="@drawable/text_nav_bg"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/bottom_menu" />

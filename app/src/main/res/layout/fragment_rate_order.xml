@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragments.addresses.AddressesFragment">
+    tools:context=".ui.rate.RateOrderFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/ll_header_info"
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_8sdp"
             android:layout_marginTop="@dimen/_16sdp"
-            android:text="@string/addresses"
+            android:text="@string/rate_order"
             android:textColor="@color/black"
             android:textSize="@dimen/_16ssp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -39,35 +39,50 @@
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <LinearLayout
-        android:id="@+id/ll_address"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/_8sdp"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ll_header_info">
-
-        <include layout="@layout/item_address" />
-
-        <include layout="@layout/item_address" />
-
-    </LinearLayout>
-
-
-    <TextView
-        android:id="@+id/tv_addNewAddress"
+    <RatingBar
+        android:id="@+id/rate_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_8sdp"
-        android:gravity="center"
-        android:text="@string/add_new_address"
-        android:textColor="@color/green"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:progressTint="@color/gold"
+        android:stepSize="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_header_info" />
+
+    <EditText
+        android:id="@+id/review_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_marginVertical="@dimen/_8sdp"
+        android:background="@drawable/gray_et"
+        android:gravity="start"
+        android:hint="@string/write_review"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:minHeight="@dimen/_80sdp"
+        android:padding="@dimen/_8sdp"
+        android:textAlignment="viewStart"
         android:textSize="@dimen/_10ssp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ll_address"
-        app:drawableStartCompat="@drawable/ic_add" />
+        app:layout_constraintTop_toBottomOf="@+id/rate_bar" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:backgroundTint="@color/green"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:cornerRadius="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/review_et" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

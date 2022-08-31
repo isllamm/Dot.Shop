@@ -25,7 +25,6 @@
     <color name="grey_900">#696969</color>
 
     <color name="transparent">@android:color/transparent</color>
-
     <!--Material color list from https://material.io/guidelines/style/color.html-->
 
     <color name="red_50">#FFEBEE</color>
@@ -258,6 +257,8 @@
     <color name="teal_A400">#1DE9B6</color>
     <color name="teal_A700">#00BFA5</color>
 
+    <!--Material color list from https://material.io/guidelines/style/color.html-->
+
     <color name="lime_50">#F9FBE7</color>
     <color name="lime_100">#F0F4C3</color>
     <color name="lime_200">#E6EE9C</color>
@@ -318,3 +319,4 @@
         <item type="color">#ff9800</item>
     </array>
 </resources>
+

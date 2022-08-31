@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragments.addresses.AddressesFragment">
+    tools:context=".ui.rate.ReviewsFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/ll_header_info"
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_8sdp"
             android:layout_marginTop="@dimen/_16sdp"
-            android:text="@string/addresses"
+            android:text="@string/reviews"
             android:textColor="@color/black"
             android:textSize="@dimen/_16ssp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -40,7 +40,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
-        android:id="@+id/ll_address"
+        android:id="@+id/ll_reviews"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/_8sdp"
@@ -49,25 +49,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ll_header_info">
 
-        <include layout="@layout/item_address" />
+        <include layout="@layout/item_review" />
 
-        <include layout="@layout/item_address" />
+        <include layout="@layout/item_review" />
+
+        <include layout="@layout/item_review" />
 
     </LinearLayout>
 
-
-    <TextView
-        android:id="@+id/tv_addNewAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_8sdp"
-        android:gravity="center"
-        android:text="@string/add_new_address"
-        android:textColor="@color/green"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_continue1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:backgroundTint="@color/green"
+        android:text="@string/write_a_review"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
         android:textSize="@dimen/_10ssp"
+        app:cornerRadius="@dimen/_8sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ll_address"
-        app:drawableStartCompat="@drawable/ic_add" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
