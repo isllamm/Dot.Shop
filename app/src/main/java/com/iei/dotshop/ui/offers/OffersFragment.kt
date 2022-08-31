@@ -6,17 +6,30 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.iei.dotshop.R
+import com.iei.dotshop.databinding.FragmentOffersBinding
+import com.iei.dotshop.databinding.FragmentProfileBinding
+import com.iei.dotshop.ui.main.MainActivity
 
 
 class OffersFragment : Fragment() {
 
+    private lateinit var binding : FragmentOffersBinding
+    private lateinit var parent: MainActivity
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_offers, container, false)
+    ): View {
+        binding = FragmentOffersBinding.inflate(inflater)
+        parent = requireActivity() as MainActivity
+
+        setupUI()
+        return binding.root
+    }
+
+    private fun setupUI() {
+        parent.setToolbarTitle(getString(R.string.offers))
+        parent.showToolbar(true)
     }
 
 
