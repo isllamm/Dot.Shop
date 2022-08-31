@@ -15,6 +15,7 @@
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/drawable/image_bg.xml" value="0.2065" />
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/drawable/item_bg.xml" value="0.2065" />
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/drawable/light_green_bg.xml" value="0.2065" />
+        <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/drawable/new_arrival_bg.xml" value="0.2065" />
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/drawable/offers_selector.xml" value="0.2065" />
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/drawable/order_selector.xml" value="0.2065" />
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/drawable/profile_selector.xml" value="0.2065" />
@@ -32,6 +33,7 @@
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/layout/fragment_login.xml" value="0.34782608695652173" />
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/layout/fragment_my_cart.xml" value="0.34782608695652173" />
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/layout/fragment_new_password.xml" value="0.34782608695652173" />
+        <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/layout/fragment_offers.xml" value="0.34782608695652173" />
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/layout/fragment_orders.xml" value="0.19166666666666668" />
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/layout/fragment_payments.xml" value="0.34782608695652173" />
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/layout/fragment_personal_info.xml" value="0.34782608695652173" />
@@ -46,6 +48,7 @@
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/layout/home_toolbar.xml" value="0.19166666666666668" />
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/layout/item_address.xml" value="0.34782608695652173" />
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/layout/item_category.xml" value="0.34782608695652173" />
+        <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/layout/item_filter.xml" value="0.34782608695652173" />
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/layout/item_my_cart.xml" value="0.34782608695652173" />
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/layout/item_new_arrivals.xml" value="0.34782608695652173" />
         <entry key="..\:/TAWAJOOD/Dot.Shop/app/src/main/res/layout/item_offer.xml" value="0.34782608695652173" />
