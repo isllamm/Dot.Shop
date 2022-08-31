@@ -79,5 +79,11 @@
     <string name="reviews">المراجعات</string>
     <string name="verified_purchase">مشتري معتمد</string>
     <string name="write_a_review">أكتب مراجعة</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">View All</string>
+    <string name="top_offers">Top Offers</string>
+    <string name="discount">Discount</string>
+    <string name="top_selling">Top Selling</string>
+    <string name="add_to_cart">Add to cart</string>
 
 </resources>
