@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.iei.dotshop.R
 import com.iei.dotshop.databinding.FragmentPlacedOrderBinding
 import com.iei.dotshop.databinding.FragmentSuccessfulRateBinding
-import com.iei.dotshop.ui.main.MainActivity
+import com.iei.dotshop.ui.activity.main.MainActivity
 
 
 class SuccessfulRateFragment : Fragment() {

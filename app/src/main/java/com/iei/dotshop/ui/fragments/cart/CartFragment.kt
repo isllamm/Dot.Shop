@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.iei.dotshop.R
 import com.iei.dotshop.databinding.FragmentCartBinding
 import com.iei.dotshop.databinding.FragmentMyCartBinding
-import com.iei.dotshop.ui.main.MainActivity
+import com.iei.dotshop.ui.activity.main.MainActivity
 
 
 class CartFragment : Fragment() {
