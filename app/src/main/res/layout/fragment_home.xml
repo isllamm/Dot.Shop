@@ -31,16 +31,16 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/frameLayout"
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_120sdp"
             android:layout_margin="@dimen/_8sdp"
             app:cardCornerRadius="@dimen/_8sdp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/et_search">
-
+            app:layout_constraintTop_toBottomOf="@+id/et_search"/>
 
             <com.smarteist.autoimageslider.SliderView
                 android:id="@+id/slider"
@@ -54,13 +54,13 @@
                 app:sliderIndicatorMargin="15dp"
                 app:sliderIndicatorOrientation="horizontal"
                 app:sliderIndicatorPadding="3dp"
+                app:layout_constraintBottom_toBottomOf="@+id/viewpager"
                 app:sliderIndicatorRadius="@dimen/_2sdp"
                 app:sliderIndicatorSelectedColor="@color/green"
                 app:sliderIndicatorUnselectedColor="@color/gray_800"
                 app:sliderScrollTimeInSec="2"
                 app:sliderStartAutoCycle="true" />
 
-        </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tv_category"
@@ -70,8 +70,8 @@
             android:text="@string/categories"
             android:textColor="@color/black"
             android:textSize="@dimen/_14ssp"
-            app:layout_constraintStart_toStartOf="@+id/frameLayout"
-            app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+            app:layout_constraintStart_toStartOf="@+id/viewpager"
+            app:layout_constraintTop_toBottomOf="@+id/viewpager" />
 
         <TextView
             android:id="@+id/tv_category_view_all"
@@ -81,8 +81,8 @@
             android:text="@string/view_all"
             android:textColor="@color/green"
             android:textSize="@dimen/_10ssp"
-            app:layout_constraintEnd_toEndOf="@+id/frameLayout"
-            app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+            app:layout_constraintEnd_toEndOf="@+id/viewpager"
+            app:layout_constraintTop_toBottomOf="@+id/viewpager" />
 
         <View
             android:id="@+id/view5"
@@ -118,7 +118,7 @@
             android:text="@string/top_offers"
             android:textColor="@color/black"
             android:textSize="@dimen/_14ssp"
-            app:layout_constraintStart_toStartOf="@+id/frameLayout"
+            app:layout_constraintStart_toStartOf="@+id/viewpager"
             app:layout_constraintTop_toBottomOf="@+id/rv_cats" />
 
         <TextView
@@ -129,7 +129,7 @@
             android:text="@string/view_all"
             android:textColor="@color/green"
             android:textSize="@dimen/_10ssp"
-            app:layout_constraintEnd_toEndOf="@+id/frameLayout"
+            app:layout_constraintEnd_toEndOf="@+id/viewpager"
             app:layout_constraintTop_toBottomOf="@+id/rv_cats" />
 
         <View
@@ -169,7 +169,7 @@
             android:text="@string/top_selling"
             android:textColor="@color/black"
             android:textSize="@dimen/_14ssp"
-            app:layout_constraintStart_toStartOf="@+id/frameLayout"
+            app:layout_constraintStart_toStartOf="@+id/viewpager"
             app:layout_constraintTop_toBottomOf="@+id/rv_offers" />
 
         <TextView
@@ -180,7 +180,7 @@
             android:text="@string/view_all"
             android:textColor="@color/green"
             android:textSize="@dimen/_10ssp"
-            app:layout_constraintEnd_toEndOf="@+id/frameLayout"
+            app:layout_constraintEnd_toEndOf="@+id/viewpager"
             app:layout_constraintTop_toBottomOf="@+id/rv_offers" />
 
         <View
@@ -217,7 +217,7 @@
             android:text="@string/top_selling"
             android:textColor="@color/black"
             android:textSize="@dimen/_14ssp"
-            app:layout_constraintStart_toStartOf="@+id/frameLayout"
+            app:layout_constraintStart_toStartOf="@+id/viewpager"
             app:layout_constraintTop_toBottomOf="@+id/rv_topSelling" />
 
         <TextView
@@ -228,7 +228,7 @@
             android:text="@string/view_all"
             android:textColor="@color/green"
             android:textSize="@dimen/_10ssp"
-            app:layout_constraintEnd_toEndOf="@+id/frameLayout"
+            app:layout_constraintEnd_toEndOf="@+id/viewpager"
             app:layout_constraintTop_toBottomOf="@+id/rv_topSelling" />
 
         <View

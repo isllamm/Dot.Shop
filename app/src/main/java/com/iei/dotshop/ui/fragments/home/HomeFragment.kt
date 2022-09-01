@@ -7,7 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.iei.dotshop.databinding.FragmentHomeBinding
 import com.iei.dotshop.ui.activity.main.MainActivity
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 
 class HomeFragment : Fragment() {
 

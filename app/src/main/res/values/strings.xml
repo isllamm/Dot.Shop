@@ -88,5 +88,17 @@
 
     <string name="order_date">Order Date</string>
     <string name="order_num">Order Num</string>
+    <string name="memory_size">Memory Size</string>
+    <string name="description">Description</string>
+    <string name="rating">Rating</string>
+    <string name="msg_empty_email">Empty Email Address</string>
+    <string name="email_error">Email Error</string>
+    <string name="password_error">" Password Error"</string>
+    <string name="msg_invalide_email">Invalid Email Address</string>
+    <string name="msg_empty_new_password">Empty Password</string>
+    <string name="please_complete_data">Please Complete Your Data</string>
+    <string name="error">Error</string>
+    <string name="exit_app">ExitAPP</string>
+    <string name="cancel">Cancel</string>
 
 </resources>

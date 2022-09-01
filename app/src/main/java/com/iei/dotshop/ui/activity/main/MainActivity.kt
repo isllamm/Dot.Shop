@@ -11,7 +11,9 @@ import androidx.navigation.ui.setupWithNavController
 import com.iei.dotshop.R
 import com.iei.dotshop.databinding.ActivityMainBinding
 import com.iei.dotshop.utils.LoadingUtil
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 
 class MainActivity : AppCompatActivity() {
 

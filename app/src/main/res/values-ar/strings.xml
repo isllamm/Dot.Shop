@@ -87,5 +87,8 @@
     <string name="top_selling">Top Selling</string>
     <string name="add_to_cart">Add to cart</string>
     <string name="more_offers">More Offers</string>
+    <string name="memory_size">Memory Size</string>
+    <string name="msg_empty_email">Empty Email Address</string>
+    <string name="email_error">Email Error</string>
 
 </resources>

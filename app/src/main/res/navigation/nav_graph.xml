@@ -104,7 +104,7 @@
     </fragment>
     <fragment
         android:id="@+id/rateOrderFragment"
-        android:name="com.iei.dotshop.ui.rate.RateOrderFragment"
+        android:name="com.iei.dotshop.ui.fragments.rate.RateOrderFragment"
         android:label="fragment_rate_order"
         tools:layout="@layout/fragment_rate_order" >
         <action
@@ -113,7 +113,7 @@
     </fragment>
     <fragment
         android:id="@+id/successfulRateFragment"
-        android:name="com.iei.dotshop.ui.rate.SuccessfulRateFragment"
+        android:name="com.iei.dotshop.ui.fragments.rate.SuccessfulRateFragment"
         android:label="fragment_successful_rate"
         tools:layout="@layout/fragment_successful_rate" >
         <action
@@ -122,7 +122,7 @@
     </fragment>
     <fragment
         android:id="@+id/reviewsFragment"
-        android:name="com.iei.dotshop.ui.rate.ReviewsFragment"
+        android:name="com.iei.dotshop.ui.fragments.rate.ReviewsFragment"
         android:label="fragment_reviews"
         tools:layout="@layout/fragment_reviews" >
         <action
@@ -131,7 +131,7 @@
     </fragment>
     <fragment
         android:id="@+id/offersFragment"
-        android:name="com.iei.dotshop.ui.offers.OffersFragment"
+        android:name="com.iei.dotshop.ui.fragments.offers.OffersFragment"
         android:label="fragment_offers"
         tools:layout="@layout/fragment_offers" />
 

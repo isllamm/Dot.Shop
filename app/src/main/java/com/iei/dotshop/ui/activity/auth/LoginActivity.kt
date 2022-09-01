@@ -6,26 +6,26 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import com.iei.dotshop.R
 import com.iei.dotshop.databinding.ActivityLoginBinding
-import com.iei.dotshop.utils.LoadingUtil
+import com.iei.dotshop.ui.activity.BaseActivity
 import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
+class LoginActivity : BaseActivity<ActivityLoginBinding>() {
 
-class LoginActivity : AppCompatActivity() {
-
-    private lateinit var binding: ActivityLoginBinding
-    private lateinit var loadingUtil: LoadingUtil
+   // private lateinit var loadingUtil: LoadingUtil
     lateinit var navController: NavController
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        binding = ActivityLoginBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-        loadingUtil = LoadingUtil(this)
-        setupNavController()
+   override fun onCreate(savedInstanceState: Bundle?) {
+       super.onCreate(savedInstanceState)
+      // binding = ActivityLoginBinding.inflate(layoutInflater)
+     //  setContentView(binding.root)
+      // loadingUtil = LoadingUtil(this)
+       setupNavController()
 
-        onClick()
+       onClick()
 
-    }
+   }
+
 
     private fun setupNavController() {
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.login_nav_host_fragment)

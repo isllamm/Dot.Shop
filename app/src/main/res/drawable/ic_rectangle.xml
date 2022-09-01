@@ -1,10 +1,12 @@
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-  <item >
-    <shape android:shape="rectangle">
-      <solid android:color="@color/green"/>
-      <stroke android:dashGap="@dimen/_20sdp"/>
-      <size android:width="@dimen/_20sdp" android:height="@dimen/_8sdp"/>
-      <corners android:radius="@dimen/_10sdp" />
-    </shape>
-  </item>
-</selector>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="125dp"
+    android:height="72dp"
+    android:tint="@color/grey_400"
+    android:viewportWidth="125"
+    android:viewportHeight="72">
+  <path
+      android:strokeWidth="1"
+      android:pathData="M7,0.5L118,0.5A6.5,6.5 0,0 1,124.5 7L124.5,65A6.5,6.5 0,0 1,118 71.5L7,71.5A6.5,6.5 0,0 1,0.5 65L0.5,7A6.5,6.5 0,0 1,7 0.5z"
+      android:fillColor="#00000000"
+      android:strokeColor="#87C778"/>
+</vector>
